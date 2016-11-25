@@ -61,3 +61,8 @@ extension PhoneNumber
     }
     
 }
+
+let phonenum:PhoneNumber = PhoneNumber(number: "8584567890", type: phType.init())
+phonenum.isMobile()
+phonenum.isLocal()
+phonenum.description()
